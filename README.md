@@ -8,6 +8,9 @@
 ## Array Helper Methods
 
 1. forEach
+   1. 'colors' array
+      1. red, green, blue
+         1. Iterator Function
 2. find
 3. reduce
 4. map
@@ -31,6 +34,16 @@
 
 ## Generators
 
+1. What is a generator?
+
+2. What does a generator do?
+
+3. Iteration with generators
+
+4. Generator delegation
+
+5. Generators with Symbol.iterator
+
 ## Promises and Fetch
 
 1. Absolute time to do this: 1 millisecond
@@ -45,8 +58,29 @@
 
 3. Internet
    1. makes request
+   2. then
 
 4. Absolute time to do this: 1 millisecond
    1. ```js
       console.log(data)
       ```
+
+5. 3 States of Promises
+   1. 'unresolved'
+      1. waiting for something to finish...
+   2. 'resolved'
+      1. something finished and it all went ok
+   3. 'rejected'
+      1. something finished and something went bad
+
+6. Promise
+   1. Everthing worked out
+      1. 'resolved'
+         1. status
+            1. then
+               1. catch
+   2. Something Bad Happened
+      1. 'rejected'
+         1. status
+            1. catch
+               1. callbacks

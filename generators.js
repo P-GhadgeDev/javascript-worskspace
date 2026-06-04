@@ -21,3 +21,23 @@ for (let number of numbers){
     // 10
 }
 
+// function* numbers(){
+  
+// }
+
+
+// function *numbers(){
+  
+// }
+
+function* numbers(){
+  yield;
+}
+
+const gen = numbers();
+
+console.log(numbers());
+
+console.log(gen.next());
+
+console.log(gen.next());

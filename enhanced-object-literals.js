@@ -29,3 +29,29 @@ console.log(bookShop.inventoryValue());
 
 console.log(bookShop.priceForTitle("Harry Potter"));
 // 10
+
+// function saveFile(url, data) {
+//   $.ajax({
+//     method: "POST",
+//     url: url,
+//     data: data,
+//   });
+// }
+
+// const url = "http://fileupload.com";
+// const data = { color: "red" };
+
+// saveFile(url, data);
+
+function saveFile(url, data) {
+  $.ajax({
+    url,
+    data,
+    method: "POST",
+  });
+}
+
+const url = "http://fileupload.com";
+const data = { color: "red" };
+
+saveFile(url, data);
