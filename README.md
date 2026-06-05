@@ -7,10 +7,16 @@
 
 ## Array Helper Methods
 
-1. forEach
-   1. 'colors' array
-      1. red, green, blue
-         1. Iterator Function
+1. `forEach`:
+   1. `forEach()` is an array helper method that executes a callback function once for each element in the array.
+   2. `Syntax`:
+      1. ```js
+         array.forEach(function (element, index, array) {
+           // logic
+         });
+         ```
+   3. Array -> forEach -> Iterator Function -> Runs once per element.
+
 2. find
 3. reduce
 4. map
@@ -21,6 +27,13 @@
 ## Variable declaration with let and const
 
 ## Template Literals
+
+## Arrow Functions
+
+1. teamSummary
+   1. members.map
+      1. function
+         1. Function passed off to somewhere else in our code base
 
 ## Enhanced Object Literals
 
@@ -48,7 +61,7 @@
 
 1. Absolute time to do this: 1 millisecond
    1. ```js
-      const url = 'http://www.json.com'
+      const url = "http://www.json.com";
       ```
 
 2. Absolute time to do this: 3 seconds
@@ -62,7 +75,7 @@
 
 4. Absolute time to do this: 1 millisecond
    1. ```js
-      console.log(data)
+      console.log(data);
       ```
 
 5. 3 States of Promises

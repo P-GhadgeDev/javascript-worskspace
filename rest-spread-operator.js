@@ -48,3 +48,15 @@ function validareShoppingList(...items) {
 }
 
 validareShoppingList("oranges", "bread", "eggs");
+
+const MathLibrary = {
+  // calculateProduct(a,b){
+  calculateProduct(...rest){
+    console.log('Please use the multiply method instead');
+  // return a * b;
+  return this.multiply(...rest);
+  },
+  multiply(a, b){
+    return a * b;
+  }
+}

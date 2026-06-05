@@ -50,3 +50,14 @@ function fileSummary({ name, extension, size }, { color }) {
 }
 
 fileSummary(savedFiled, { color: "red" });
+
+const companies =['Google','Facebook','Uber'];
+
+const [name] = companies;
+
+const firstCompany = companies[0];
+
+console.log(name);
+
+const [name, name2, ...rest] = companies;
+
