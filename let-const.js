@@ -199,3 +199,62 @@ function buildExpressions(code) {
 
   return exp;
 }
+
+// The following code uses var instead of const and let.
+// Refactor the code to use the new keywords.
+// Be sure to consider whether each variable should be declared using const or let depending on whether the variable gets reassigned or not.
+
+// var statuses = [
+//   { code: "OK", response: "Request successful" },
+//   { code: "FAILED", response: "There was an error with your request" },
+//   { code: "PENDING", response: "Your reqeust is still pending" },
+// ];
+// var message = "";
+// var currentCode = "OK";
+
+// for (var i = 0; i < statuses.length; i++) {
+//   if (statuses[i].code === currentCode) {
+//     message = statuses[i].response;
+//   }
+// }
+
+// console.log(message);
+// Request successful
+
+const statuses = [
+  { code: 'OK', response: 'Request successful' },
+  { code: 'FAILED', response: 'There was an error with your request' },
+  { code: 'PENDING', response: 'Your request is still pending' }
+];
+
+let message = '';
+const currentCode = 'OK';
+
+for (let i = 0; i < statuses.length; i++) {
+  if (statuses[i].code === currentCode) {
+    message = statuses[i].response;
+  }
+}
+
+console.log(message);
+// Request successful
+
+// Imagine that you are building an application to manage a user's Facebook profile. 
+// A profile might have a: 
+// name
+// age
+// dateOfBirth
+// Declare three variables with these same names, making sure to use const or let depending on whether you expect the value to change over time.
+
+const name = 'Alex';
+let age = 30;
+const dateOfBirth = '1995-05-15';
+
+console.log(name);
+// Alex
+
+console.log(age);
+// 30
+
+console.log(dateOfBirth);
+// 1995-05-15

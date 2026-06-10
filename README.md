@@ -37,7 +37,37 @@
 
 ## Enhanced Object Literals
 
+1. Enhanced Object Literals are a JavaScript feature that lets you write object definitions in a shorter and cleaner way.
+2. `Syntax`:
+   1. ```js
+      const name = "John";
+      const age = 30;
+
+      const person = {
+        name,
+        age,
+      };
+      ```
+
 ## Default Function Arguments
+
+1. Default function arguments allow you to assign a default value to a parameter if no value (or `undefined`) is passed when the function is called.
+2. `Benefits/Use Cases`:
+   1. Provide a fallback value when no argument is supplied.
+   2. Avoid `undefined` errors.
+   3. Write cleaner and shorter code.
+   4. Create optional parameters without extra conditional checks.
+3. `Key Points`:
+   1. Default values are used only when the argument is `undefined`.
+   2. Passing `undefined` uses the default value.
+   3. Passing `null` does not use the default value.
+   4. Any explicitly provided value overrides the default value.
+4. `Syntax`:
+   1. ```js
+      function greet(name = "Guest") {
+        return `Hello, ${name}!`;
+      }
+      ```
 
 ## Rest and Spread Operator
 
@@ -45,9 +75,19 @@
 
 ## Classes
 
+1. Toyota
+
 ## Generators
 
 1. What is a generator?
+   1. Start walking to store
+   2. Still walking...
+   3. At store! Going in with money
+      1. money
+         1. In the store...see you soon...
+            1. groceries
+               1. I'm back with groceries!
+                  1. Headed back home
 
 2. What does a generator do?
 

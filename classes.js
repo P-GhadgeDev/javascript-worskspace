@@ -77,4 +77,19 @@ class Car{
 }
 
 const car = new Car({title:'Toyota'});
+car;
 car.drive();
+
+class Toyota extends Car {
+  constructor(options){
+    super(options);
+    this.color = this.color;
+  }
+  honk(){
+    return 'beep';
+  }
+}
+
+const toyota = new Toyota({color:'red', title:'Daily Driver'});
+'---';
+toyota.honk();
